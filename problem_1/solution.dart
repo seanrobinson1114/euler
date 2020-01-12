@@ -23,7 +23,7 @@ main() {
 // Finds all multiples of number
 int findMultiplesSum(int start_value, int ceiling, [int duplicate_base = 0]) {
   int current_multiple = start_value;
-  List<int> multiples = new List();
+  List<int> multiples = new List<int>();
 
   // Keep looping until the current multiple >= ceiling
   while (current_multiple < ceiling) {
