@@ -2,7 +2,7 @@
 import 'dart:math';
 
 /**
- * Largest product in a series
+ * Largest Product In A Series
  * 
  * The four adjacent digits in the 1000-digit number that can have the greatest product are 9x9x8x9=5832
  * 
@@ -40,9 +40,9 @@ main() {
 }
 
 // Finds the maximum product of specific sequence length in a series
-findMaxSequenceProduct(String series, int sequence_length) {
+int findMaxSequenceProduct(String series, int sequence_length) {
   List<int> products = new List<int>();
-  
+
   for(int i = 0; i < series.length - sequence_length + 1; ++i) {
     int product = 1;
 

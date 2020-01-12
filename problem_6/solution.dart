@@ -2,7 +2,7 @@
 import 'dart:math';
 
 /**
- * Sum square difference
+ * Sum Square Difference
  * 
  * The sum of the squares of the first ten natural numbers is 385
  * The square of the sum of the first ten natural numbers is 3025

@@ -1,5 +1,5 @@
 /**
- * 10001st prime
+ * 10001st Prime
  * 
  * By listing the first six prime numbers: 2,3,5,7,11,13
  * We can see that the sixth prime is 13
@@ -33,13 +33,13 @@ List<int> generateListOfPrimes(int nth) {
   return primes;
 }
 
-  // Determine if prime number
-  bool determineIfPrime(int prime_check) {
-    for(int i = 2; i < prime_check; ++i) {
-      if(prime_check % i == 0 )
-        // Number isn't prime
-        return false;
-    }
-    return true;
+// Determine if prime number
+bool determineIfPrime(int prime_check) {
+  for(int i = 2; i < prime_check; ++i) {
+    if(prime_check % i == 0 )
+      // Number isn't prime
+      return false;
   }
+  return true;
+}
 
