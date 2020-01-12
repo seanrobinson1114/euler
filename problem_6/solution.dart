@@ -3,6 +3,7 @@ import 'dart:math';
 
 /**
  * Sum square difference
+ * 
  * The sum of the squares of the first ten natural numbers is 385
  * The square of the sum of the first ten natural numbers is 3025
  * Hence the difference between the sum of the squares of the first ten natural numbers
