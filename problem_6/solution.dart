@@ -14,7 +14,7 @@ import 'dart:math';
  * @author seanmr
  */
 
-main() {
+void main() {
   List<int> naturals = new List<int>.generate(100, (int index) => index + 1);
 
   int square_sum = calcSquareofSum(naturals);

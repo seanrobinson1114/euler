@@ -10,7 +10,7 @@
  * @author seanmr
  */
 
-main() {
+void main() {
   print(genFibSequence(4000000));
 }
 

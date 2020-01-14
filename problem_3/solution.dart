@@ -11,7 +11,7 @@ import 'dart:math';
  * @author seanmr
  */
 
-main() {
+void main() {
   // Calculate the largest prime factor
   print(calcLargestPrimeFactor(600851475143));
 }

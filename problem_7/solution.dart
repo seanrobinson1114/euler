@@ -9,7 +9,7 @@
  * @author seanmr 
  */
 
-main() {
+void main() {
   print(findSpecifiedPrime(10001));
 }
 

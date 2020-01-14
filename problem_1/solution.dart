@@ -9,7 +9,7 @@
  * 
  * @author seanmr
  */
-main() {
+void main() {
   // Calculate sums for 3 and 5
   int threeSum = findMultiplesSum(3, 1000, 5);
   int fiveSum = findMultiplesSum(5, 1000);

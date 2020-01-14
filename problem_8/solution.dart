@@ -12,7 +12,7 @@ import 'dart:math';
  * @author seanmr
  */
 
-main() {
+void main() {
   // Make sure to remove newline characters and all whitespaces
   String series =
     """73167176531330624919225119674426574742355349194934

@@ -9,7 +9,7 @@
  * @author seanmr
  */
 
-main() {
+void main() {
   print(findLargestPalindromefromThreeDigit(999, 999));
 }
 
